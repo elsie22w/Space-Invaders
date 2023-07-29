@@ -1,0 +1,35 @@
+GAME MECHANICS: SPACE INVADERS
+- pass level -> + 1 life from remaining, max 3 lives
+- as levels progress, speed gets quicker
+- new levels, progession of speed is quicker 
+
+ALIENS:
+- randomly shoot down missiles 
+- when player gets hit, game delays for a bit
+
+BUNKERS:
+- each time they get hit (player or aliens), they deteraiote where they were hit
+- once hit, the suqare that got hit moves to next "stage" 
+
+LEVEL PROGRESSION:
+- As aliens are defeated, their movement speed up
+- Defeat all aliens: new aliens spawn, lower down the screen
+
+PLAYER:
+- move along x-axis
+- can shoot projectile, consistent max speed (can't spam)
+- have 3 lives 
+
+"ALIENS":
+- five rows of eleven "aliens" that move left and right as a group
+- "aliens" move down each time they reach a screen edge
+
+UFO/ MYSTERY SHIP:
+- "mystery ship" will occasionally move across top of the screen and give bonus points
+
+SCORING:
+- bottom 2 rows - 10 pts
+- middle 2 rows - 20 pts
+- top row - 30 pts
+- mystery ships - depends on how many times the player has shot, increments through the list below:
+100, 50, 50, 100, 150, 100, 100, 50, 300, 100, 100, 100, 50, 150, 100, 50 
